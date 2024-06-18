@@ -1,0 +1,25 @@
+
+.quadrado-colorido {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation: changeColor 4s; 
+    transition: background-color 4s linear;
+    position: absolute;
+  
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    75% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
